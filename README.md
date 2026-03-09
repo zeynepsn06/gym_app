@@ -1,16 +1,51 @@
-# React + Vite
+# 🏋️ Gym App - Modern & Premium Gym Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 
-Currently, two official plugins are available:
+Spor salonu yönetimi ve üye takibi için geliştirilmiş, **Glassmorphism** tasarım diline sahip, modern ve yüksek performanslı bir Flutter mobil uygulamasıdır.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Özellikler
 
-## React Compiler
+- **💎 Premium UI:** Glassmorphism bileşenleri, neon butonlar ve akıcı animasyonlar ile benzersiz kullanıcı deneyimi.
+- **🆔 QR Giriş Sistemi:** QR kod tarama (Mobile Scanner) entegrasyonu ile hızlı üye yoklama.
+- **📊 Gelişmiş İstatistikler:** FL Chart kullanarak antrenman ve gelişim grafiklerini takip etme.
+- **🥗 Diyet & Program Yönetimi:** Üyelere özel antrenman ve beslenme planları atama.
+- **💧 Hidrasyon Takibi:** Günlük su tüketimi izleme modülü.
+- **🧠 Universal Memory Protocol:** AI destekli geliştirme için entegre proje hafızası ve sistem yetenekleri.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎨 Tasarım Dili
 
-## Expanding the ESLint configuration
+Uygulama, modern mobil tasarım trendlerini takip eder:
+- **Glassmorphism:** Yarı saydam, bulanıklaştırılmış arka plan kartları.
+- **Sleek Gradients:** Göz yormayan, premium renk geçişleri.
+- **Micro-interactions:** Kullanıcı etkileşimini artıran yumuşak animasyonlar.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ Mimari Yapı
+
+Proje, sürdürülebilirlik için **Feature-Based Architecture** (Özellik Tabanlı Mimari) kullanmaktadır:
+- `/lib/core`: Paylaşılan widget'lar, temalar ve yardımcı servisler.
+- `/lib/features`: Bağımsız işlevsel modüller (Diyet, Program, Üyeler, QR vb.).
+- `.agents/skills`: AI geliştirme standartları ve sistem yetenekleri.
+
+## 🛠️ Kurulum
+
+1. Depoyu bilgisayarınıza indirin:
+   ```bash
+   git clone https://github.com/zeynepsn06/gym_app.git
+   ```
+2. Bağımlılıkları yükleyin:
+   ```bash
+   flutter pub get
+   ```
+3. Uygulamayı çalıştırın:
+   ```bash
+   flutter run
+   ```
+
+## 🧠 Geliştirici Notu (Universal Memory)
+
+Bu proje, **Universal Memory Protocol** kullanılarak geliştirilmektedir. Proje vizyonu, aktif kararlar ve mimari kurallar `PROJECT_MEMORY.md` içinde tutulmaktadır.
+
+---
+*Geliştiren: [zeynepsn06](https://github.com/zeynepsn06)*
