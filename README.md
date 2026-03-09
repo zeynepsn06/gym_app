@@ -48,4 +48,4 @@ Proje, sürdürülebilirlik için **Feature-Based Architecture** (Özellik Taban
 Bu proje, **Universal Memory Protocol** kullanılarak geliştirilmektedir. Proje vizyonu, aktif kararlar ve mimari kurallar `PROJECT_MEMORY.md` içinde tutulmaktadır.
 
 ---
-*Geliştiren: [zeynepsn06](https://github.com/zeynepsn06)*
+*Geliştirenler: [zeynepsn06](https://github.com/zeynepsn06) & [yiitcan55](https://github.com/yiitcan55)*
